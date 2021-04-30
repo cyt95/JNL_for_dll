@@ -75,3 +75,8 @@ JNIEXPORT void JNICALL Java_JNI_printHelloWorld(JNIEnv *env, jobject jobj) {
 ```
 
 4. 빌드된 dll을 java 프로젝트 디렉토리에 이동시킨다.
+
+##### 결과
+cpp dll에서 구현한 printf의 출력 멘트와 숫자 2020을 가져온 모습입니다.
+![image](https://user-images.githubusercontent.com/73207889/116646203-78269780-a9b2-11eb-93ea-f23a8cdb6a32.png)
+
