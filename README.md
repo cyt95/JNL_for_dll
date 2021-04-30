@@ -83,3 +83,17 @@ JNIEXPORT void JNICALL Java_JNI_printHelloWorld(JNIEnv *env, jobject jobj) {
 cpp dll에서 구현한 printf의 출력 멘트와 숫자 2020을 가져온 모습입니다.
 ![image](https://user-images.githubusercontent.com/73207889/116646203-78269780-a9b2-11eb-93ea-f23a8cdb6a32.png)
 
+
+
+##### 참고자료
+[JNI] IntelliJ IDEA jni 헤더파일 (header file) javah 명령어 설정하기 <br>
+출처: https://ashespia.tistory.com/38 [아직미정]
+
+DLL(동적 연결 라이브러리) 만들어서 사용하기 <br>
+https://blog.naver.com/PostView.nhn?blogId=tipsware&logNo=221359282016
+
+[JNI] java에서 dll로드하기 <br>
+https://rogiry.tistory.com/88
+
+Java - JNI 사용하기 <br>
+https://mommoo.tistory.com/71
